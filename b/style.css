@@ -52,3 +52,7 @@ body {
     bottom:0;
     width:100%;
 }
+
+.footer_text {
+    color: white;
+}
