@@ -23,11 +23,18 @@ body {
 }
 
 .paragraph {
-    margin-top: 20px;
-    margin-bottom:  20px;
-    font-size: 20px;   
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 25px;   
 
 }
+
+.options {
+    width: 70%;
+    margin-bottom: 20px;    
+    margin-bottom: 20px;
+}
+
 .footer {
     background-color: black;
 }
