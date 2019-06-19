@@ -1,0 +1,33 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    width: 100%;
+    max-width: 320px;
+}
+
+.title {
+    background-color: black;
+}
+
+.title_text {
+    font-family: 'Sigmar one', monospace;
+    font-size: 45px;
+    line-height: 30px;
+    font-weight: bolder;
+    padding: 20px;
+    color: black;
+    text-shadow: 1px 0px 0px white, 
+                 -1px 0px 0px white, 
+                 0px 1px 0px white, 
+                 0px -1px 0px white;
+}
+
+.paragraph {
+    margin-top: 20px;
+    margin-bottom:  20px;
+    font-size: 20px;   
+
+}
+.footer {
+    background-color: black;
+}
