@@ -35,6 +35,11 @@ body {
     margin-bottom: 20px;
 }
 
+.icon {
+    font-family: monospace;
+    font-size: 40px;
+}
+
 .footer {
     background-color: black;
 }
