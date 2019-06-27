@@ -10,7 +10,7 @@ purple = 80
 yellow = 10 
 black = 100 
 
-var input = document.querySelector ("[data-Input='input']")
+var weight = document.querySelector("[data-input='weight']")
 console.log(input)
 
 var button = document.querySelector("button")
