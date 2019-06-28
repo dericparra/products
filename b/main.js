@@ -11,7 +11,7 @@ button.addEventListener("click", function (event){
   var finalValue = document.createElement('h1');
   var first = Number(weight.value)
   var selectValue = select.value
-  var text = document.createTextNode("O seu investimento é de " + first * selectValue +"$" );
+  var text = document.createTextNode("Your investiment is " + first * selectValue +"$" );
   console.log(finalValue)
   finalValue.appendChild(text);
   result.appendChild(finalValue);
