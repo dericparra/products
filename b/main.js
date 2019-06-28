@@ -1,20 +1,16 @@
-var white = document.querySelector ("[value='white']")
-var green = document.querySelector ("[value='green']")
-var purple = document.querySelector("[value='purple']")
-var yellow = document.querySelector("[value='yellow']")
-var black = document.querySelector ("[value='black']")
-
-white = 30
-green = 5  
-purple = 80 
-yellow = 10 
-black = 100 
-
 var weight = document.querySelector("[data-input='weight']")
-console.log(input)
-
 var button = document.querySelector("button")
-console.log(button)
-button.addEventListener("click", function() {
-    console.log(button)
-})
+var select = document.querySelector("[data-select]")
+var result = document.querySelector("[data-result]")
+console.log(result)
+var finalValue = document.createElement('h1');
+console.log(finalValue)
+var text = document.createTextNode("O seu investimento é de " + sum );
+console.log(text)
+function sum (){
+    event.preventDefault()
+    var first = Number(weight.value)
+    var selectValue = select.value
+    return  console.log(first * selectValue +"$")
+  }
+button.addEventListener("click", sum)
